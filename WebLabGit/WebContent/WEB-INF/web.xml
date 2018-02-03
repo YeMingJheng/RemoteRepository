@@ -16,7 +16,7 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>Servlet1</servlet-name>
-  	<url-pattern>/WEB-INF/index.jsp</url-pattern>
+  	<url-pattern>/WebContent/index.jsp</url-pattern>
   </servlet-mapping>
   
 </web-app>
