@@ -26,4 +26,13 @@
     <servlet-name>FeatureXServlet</servlet-name>
     <url-pattern>/FeatureXServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>FeatureXXServlet</servlet-name>
+    <servlet-class>view.FeatureXXServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FeatureXXServlet</servlet-name>
+    <url-pattern>/FeatureXXServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
