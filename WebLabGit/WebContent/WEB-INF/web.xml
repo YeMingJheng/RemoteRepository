@@ -25,5 +25,20 @@
   <servlet-mapping>
     <servlet-name>BugfixServlet</servlet-name>
     <url-pattern>/BugfixServlet</url-pattern>
+    <servlet-name>FeatureXServlet</servlet-name>
+    <servlet-class>view.FeatureXServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FeatureXServlet</servlet-name>
+    <url-pattern>/FeatureXServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>FeatureXXServlet</servlet-name>
+    <servlet-class>view.FeatureXXServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FeatureXXServlet</servlet-name>
+    <url-pattern>/FeatureXXServlet</url-pattern>
   </servlet-mapping>
 </web-app>
