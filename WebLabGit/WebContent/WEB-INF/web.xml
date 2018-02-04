@@ -1,44 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
-  <display-name>WebLabGit</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
-  <servlet>
-    <servlet-name>Servlet1</servlet-name>
-    <servlet-class>view.Servlet1</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Servlet1</servlet-name>
-    <url-pattern>/WebContent/index.jsp</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-    <servlet-name>BugfixServlet</servlet-name>
-    <servlet-class>view.BugfixServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>BugfixServlet</servlet-name>
-    <url-pattern>/BugfixServlet</url-pattern>
-    <servlet-name>FeatureXServlet</servlet-name>
-    <servlet-class>view.FeatureXServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>FeatureXServlet</servlet-name>
-    <url-pattern>/FeatureXServlet</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-    <servlet-name>FeatureXXServlet</servlet-name>
-    <servlet-class>view.FeatureXXServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>FeatureXXServlet</servlet-name>
-    <url-pattern>/FeatureXXServlet</url-pattern>
-  </servlet-mapping>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>WebLabGit</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>Servlet1</servlet-name>
+		<servlet-class>view.Servlet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/WebContent/index.jsp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BugfixServlet</servlet-name>
+		<servlet-class>view.BugfixServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BugfixServlet</servlet-name>
+		<url-pattern>/BugfixServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>FeatureXServlet</servlet-name>
+		<servlet-class>view.FeatureXServlet</servlet-class>
+	</servlet>
+		<servlet-mapping>
+			<servlet-name>FeatureXServlet</servlet-name>
+			<url-pattern>/FeatureXServlet</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>FeatureXXServlet</servlet-name>
+			<servlet-class>view.FeatureXXServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>FeatureXXServlet</servlet-name>
+			<url-pattern>/FeatureXXServlet</url-pattern>
+		</servlet-mapping>
 </web-app>
