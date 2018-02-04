@@ -12,6 +12,7 @@
 <h3>Home</h3>
 
 <h3><a href="<c:url value="/servlet1.view" />">Servlet</a></h3>
+<h3><a href="<c:url value="/FeatureXServlet" />">FeatureXServlet</a></h3>
 
 </body>
 </html>
